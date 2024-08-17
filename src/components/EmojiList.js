@@ -1,7 +1,6 @@
-// src/components/EmojiList.js
 import React from 'react';
 import EmojiItem from './EmojiItem';
-import '../index.css'; // Optional: Add styles if needed
+import '../index.css'; 
 
 function EmojiList({ emojis, onCopy }) {
   return (
