@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>🌚 What Emoji today? 🌝</h1>
+      <h1>🌚 What Emoji today?? 🌝</h1>
       <SearchBar query={query} onSearchChange={handleSearchChange} />
       <p>👇You can click on an emoji to copy it👇</p>
       <EmojiList emojis={filteredEmojis} onCopy={handleCopy} />
