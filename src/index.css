@@ -1,0 +1,53 @@
+body{
+  background-image: url('../src/bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.app {
+  background-color: rgb(142, 142, 147);
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+  text-align: center  ;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.emoji-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: 10px;
+}
+
+.emoji-item {
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+.emoji-item:hover {
+  background-color: #f0f0f0;
+}
+
+.clipboard-notification {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
